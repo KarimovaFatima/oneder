@@ -1,0 +1,1040 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #FFFFFF;
+  position: sticky;
+  top: 0;
+  box-shadow: 1px 1px 6px #d6d6d6;
+  z-index: 2;
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header .logo ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+header .header .logo ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+header .header .logo a {
+  color: #007bff;
+  font-size: 30px;
+  line-height: 60px;
+  padding: 0 100px;
+  font-weight: 800;
+  margin-left: 0px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+header .header .menu ul {
+  display: flex;
+}
+header .header .menu li ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+header .header .menu li ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+header .header .menu li a {
+  color: #000000;
+  font-size: 15px;
+  margin-left: 55px;
+  transition: 0.2s;
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+main {
+  position: relative;
+}
+main #introduction {
+  background: url(../img/background\ image.webp);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+main #introduction h1 {
+  color: #FFFFFF;
+  position: absolute;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main #introduction h1 ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+main #introduction h1 ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.overlay {
+  background-color: #000000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+}
+
+.btn {
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 10px 30px;
+  background-color: #007bff;
+  color: #FFFFFF;
+  position: absolute;
+  top: 69%;
+  left: 45%;
+  cursor: pointer;
+  z-index: 1;
+  transition: 0.5;
+}
+
+#about-site {
+  width: 100%;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+#about-site h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #007bff;
+}
+#about-site h2 ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+#about-site h2 ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 250px;
+}
+.container img {
+  width: 540px;
+  height: 405px;
+  margin-right: 170px;
+}
+.container h2 {
+  margin-top: 5px;
+  text-align: start;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #000000;
+}
+.container h2 ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container h2 ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container p {
+  color: #747474;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+.container p ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container p ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container ul li {
+  color: #747474;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-size: 15px;
+  line-height: 2.5;
+  padding-left: 7px;
+}
+.container ul li ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container ul li ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container ul li i {
+  margin-right: 15px;
+}
+.container ul li:nth-child(4) {
+  margin-bottom: 30px;
+}
+.container .btn-2 {
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 10px 30px;
+  background-color: #007bff;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: 0.5;
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  justify-content: left;
+}
+
+#our-team h2 {
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 50px;
+  color: #007bff;
+}
+#our-team h2 ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+#our-team h2 ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+#our-team p {
+  color: #747474;
+  word-spacing: 4px;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 2;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#our-team p ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+#our-team p ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.container2 {
+  width: 100%;
+  padding-right: 25px;
+  padding-left: 15px;
+  margin-bottom: 125px;
+}
+.container2 #team-members {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 90px;
+  margin-right: 90px;
+  position: relative;
+}
+.container2 #team-members img {
+  width: 280px;
+  height: 280px;
+}
+.container2 #team-members h3 {
+  margin-top: 10px;
+  margin-left: 18px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: 0.8px;
+  word-spacing: 0.9;
+}
+.container2 #team-members h3 ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container2 #team-members h3 ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container2 #team-members h4 {
+  color: rgb(215, 215, 215);
+  word-spacing: 0.9px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 18px;
+  letter-spacing: 1px;
+}
+
+.portfolio-section {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.portfolio-section hr {
+  color: rgb(215, 215, 215);
+}
+.portfolio-section .container3 {
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+.portfolio-section .container3 h3 {
+  color: #007bff;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 85px;
+}
+.portfolio-section .container3 button {
+  text-align: center;
+  margin-top: 55px;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 9px 25px;
+  background-color: rgb(230, 230, 230);
+  color: #000000;
+  cursor: pointer;
+  transition: 0.5;
+  border: none;
+  margin-right: 20px;
+  margin-bottom: 80px;
+}
+.portfolio-section .container3 button:hover {
+  background-color: #007bff;
+  color: #FFFFFF;
+}
+.portfolio-section .container3 .images {
+  display: flex;
+  min-width: 768px;
+  max-width: 1140px;
+  margin-left: 150px;
+  margin-right: 150px;
+  align-items: stretch;
+  align-items: flex-start;
+  margin-top: 0px;
+}
+.portfolio-section .container3 .images .image1 {
+  margin-top: 0;
+  width: 255px;
+  height: 278px;
+  margin-bottom: 20px;
+}
+.portfolio-section .container3 .images .image1 .image1:hover i {
+  display: block;
+}
+.portfolio-section .container3 .images .image1 .overlay2 {
+  background-color: #000000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.4;
+}
+.portfolio-section .container3 .images .image1 .overlay2 .image1:hover .overlay2 {
+  opacity: 0.8;
+}
+.portfolio-section .container3 .images .image1 i {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: none;
+}
+.portfolio-section .container3 .images .image2 {
+  width: 255px;
+  height: 340px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.portfolio-section .container3 .images .image3 {
+  width: 255px;
+  height: 382px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.portfolio-section .container3 .images .image4 {
+  width: 255px;
+  height: 353px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.portfolio-section .container3 .images .image5 {
+  width: 255px;
+  height: 423px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.portfolio-section .container3 .images .image6 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 255px;
+  height: 382px;
+}
+.portfolio-section .container3 .images .image7 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 255px;
+  height: 182px;
+}
+.portfolio-section .container3 .images .image8 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 255px;
+  height: 182px;
+}
+.portfolio-section .container3 .images .image9 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 255px;
+  height: 453px;
+}
+.portfolio-section .container3 .images .image10 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 255px;
+  height: 166px;
+}
+.portfolio-section .container3 .images .image11 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 255px;
+  height: 382px;
+}
+.portfolio-section .container3 .images .image12 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 255px;
+  height: 169px;
+}
+.portfolio-section .container3 .images .image13 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 255px;
+  height: 169px;
+}
+
+.container4 {
+  border-bottom: 1px solid #747474;
+  background-color: #f7f7f7;
+  height: 1500px;
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+  position: relative;
+}
+.container4 .services {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 768px;
+  max-width: 1140px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: baseline;
+}
+.container4 .services .services-title {
+  margin-top: 60px;
+  margin-left: 18px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-weight: 800;
+  color: #007bff;
+  letter-spacing: 0.8px;
+  word-spacing: 0.9;
+}
+.container4 .services .services-title ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .services-title ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-1 .fa-rocket {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.container4 .services .card-1 h4 {
+  margin-top: 5px;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #000000;
+}
+.container4 .services .card-1 h4 ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-1 h4 ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-1 p {
+  color: #747474;
+  word-spacing: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.container4 .services .card-1 p ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-1 p ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-1 a {
+  color: #007bff;
+  font-size: 20px;
+}
+.container4 .services .card-2 .fa-desktop {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.container4 .services .card-2 h4 {
+  margin-top: 5px;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #000000;
+}
+.container4 .services .card-2 h4 ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-2 h4 ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-2 p {
+  color: #747474;
+  word-spacing: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.container4 .services .card-2 p ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-2 p ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-2 a {
+  color: #007bff;
+  font-size: 20px;
+}
+.container4 .services .card-3 .fa-screwdriver-wrench {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.container4 .services .card-3 h4 {
+  margin-top: 5px;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #000000;
+}
+.container4 .services .card-3 h4 ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-3 h4 ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-3 p {
+  color: #747474;
+  word-spacing: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.container4 .services .card-3 p ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-3 p ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-3 a {
+  color: #007bff;
+  font-size: 20px;
+}
+.container4 .services .card-4 .fa-lightbulb {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.container4 .services .card-4 h4 {
+  margin-top: 5px;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #000000;
+}
+.container4 .services .card-4 h4 ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-4 h4 ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-4 p {
+  color: #747474;
+  word-spacing: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.container4 .services .card-4 p ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-4 p ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-4 a {
+  color: #007bff;
+  font-size: 20px;
+}
+.container4 .services .card-5 .fa-mobile-screen {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.container4 .services .card-5 h4 {
+  margin-top: 5px;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #000000;
+}
+.container4 .services .card-5 h4 ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-5 h4 ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-5 p {
+  color: #747474;
+  word-spacing: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.container4 .services .card-5 p ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-5 p ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-5 a {
+  color: #007bff;
+  font-size: 20px;
+}
+.container4 .services .card-6 .fa-gear {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.container4 .services .card-6 h4 {
+  margin-top: 5px;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #000000;
+}
+.container4 .services .card-6 h4 ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-6 h4 ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-6 p {
+  color: #747474;
+  word-spacing: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.container4 .services .card-6 p ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-6 p ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.container4 .services .card-6 a {
+  color: #007bff;
+  font-size: 20px;
+}
+
+.testimonials h3 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 40px;
+  font-weight: 900;
+  color: #007bff;
+  text-align: center;
+}
+.testimonials h3 ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.testimonials h3 ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.testimonials p {
+  color: #747474;
+  word-spacing: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 2;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.testimonials p ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.testimonials p ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.testimonials .center-items {
+  text-align: center;
+  align-content: center;
+}
+.testimonials .center-items img {
+  border-radius: 50%;
+  max-width: 50px;
+}
+.testimonials .center-items span {
+  color: #747474;
+  word-spacing: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 2;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+}
+.testimonials .center-items span ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.testimonials .center-items span ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+.pricing .pricing-title {
+  font-size: 40px;
+  font-weight: 900;
+  color: #007bff;
+  text-align: center;
+  margin-left: 50px;
+}
+.pricing .pricing-title ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.pricing .pricing-title ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.pricing .pricing-card1 {
+  box-sizing: border-box;
+  border: none;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin-top: 50px;
+  width: 360px;
+  height: 560px;
+  margin-right: 30px;
+}
+.pricing .pricing-card1 .card-1 .card-header .card-title1 {
+  letter-spacing: 0.8;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.pricing .pricing-card1 .card-1 .card-header p {
+  color: rgb(215, 215, 215);
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 55px;
+}
+.pricing .pricing-card1 .card-1 .card-header p .currency {
+  color: #007bff;
+  font-size: 50px;
+  font-weight: 700;
+}
+.pricing .pricing-card1 .card-1 .card-header p .price {
+  color: #007bff;
+  font-size: 50px;
+  font-weight: 700;
+}
+.pricing .pricing-card1 .card-1 .card-body ul {
+  margin-bottom: 60px;
+}
+.pricing .pricing-card1 .card-1 .card-body ul li i {
+  font-size: 20;
+  margin-right: 0px;
+  text-align: start;
+}
+.pricing .pricing-card1 .card-1 .card-body ul li i p {
+  color: #747474;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-size: 20px;
+  line-height: 1;
+}
+.pricing .pricing-card1 .card-1 .card-body ul li i p ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.pricing .pricing-card1 .card-1 .card-body ul li i p ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.pricing .pricing-card1 .card-1 .card-footer .buying-btn {
+  font-size: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 9px 25px;
+  background-color: #747474;
+  cursor: pointer;
+  border: none;
+}
+.pricing .pricing-card2 {
+  box-sizing: border-box;
+  border: none;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin-top: 50px;
+  width: 360px;
+  height: 560px;
+  margin-right: 30px;
+}
+.pricing .pricing-card2 .card-2 .card-header .card-title2 {
+  letter-spacing: 0.8;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.pricing .pricing-card2 .card-2 .card-header p {
+  color: rgb(215, 215, 215);
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 55px;
+}
+.pricing .pricing-card2 .card-2 .card-header p .currency {
+  color: #007bff;
+  font-size: 50px;
+  font-weight: 700;
+}
+.pricing .pricing-card2 .card-2 .card-header p .price {
+  color: #007bff;
+  font-size: 50px;
+  font-weight: 700;
+}
+.pricing .pricing-card2 .card-2 .card-body ul {
+  margin-bottom: 60px;
+}
+.pricing .pricing-card2 .card-2 .card-body ul li i {
+  font-size: 20;
+  margin-right: 0px;
+  text-align: start;
+}
+.pricing .pricing-card2 .card-2 .card-body ul li i p {
+  color: #747474;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-size: 20px;
+  line-height: 1;
+}
+.pricing .pricing-card2 .card-2 .card-body ul li i p ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.pricing .pricing-card2 .card-2 .card-body ul li i p ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.pricing .pricing-card2 .card-2 .card-footer .buying-btn {
+  font-size: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 9px 25px;
+  background-color: #007bff;
+  cursor: pointer;
+  border: none;
+}
+.pricing .pricing-card3 {
+  box-sizing: border-box;
+  border: none;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin-top: 50px;
+  width: 360px;
+  height: 560px;
+  margin-right: 30px;
+}
+.pricing .pricing-card3 .card-3 .card-header .card-title3 {
+  letter-spacing: 0.8;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.pricing .pricing-card3 .card-3 .card-header p {
+  color: rgb(215, 215, 215);
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 55px;
+}
+.pricing .pricing-card3 .card-3 .card-header p .currency {
+  color: #007bff;
+  font-size: 50px;
+  font-weight: 700;
+}
+.pricing .pricing-card3 .card-3 .card-header p .price {
+  color: #007bff;
+  font-size: 50px;
+  font-weight: 700;
+}
+.pricing .pricing-card3 .card-3 .card-body ul {
+  margin-bottom: 60px;
+}
+.pricing .pricing-card3 .card-3 .card-body ul li i {
+  font-size: 20;
+  margin-right: 0px;
+  text-align: start;
+}
+.pricing .pricing-card3 .card-3 .card-body ul li i p {
+  color: #747474;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-size: 20px;
+  line-height: 1;
+}
+.pricing .pricing-card3 .card-3 .card-body ul li i p ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.pricing .pricing-card3 .card-3 .card-body ul li i p ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.pricing .pricing-card3 .card-3 .card-footer .buying-btn {
+  font-size: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 9px 25px;
+  background-color: #747474;
+  cursor: pointer;
+  border: none;
+}
+
+.questions h4 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 40px;
+  font-weight: 900;
+  color: #007bff;
+  text-align: center;
+}
+.questions h4 ::-moz-selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.questions h4 ::selection {
+  color: #FFFFFF;
+  background-color: #000000;
+}/*# sourceMappingURL=style.css.map */
